@@ -1,0 +1,11 @@
+/* Set root font */
+:root {
+  font-family: 'Inter', sans-serif; /* Use Inter font for the root element */
+  font-weight: 400;
+}
+
+/* Apply styles to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Reddit Mono', monospace; /* Use Reddit Mono font for headings */
+  font-weight: 900; /* Bold font weight for headings */
+}
