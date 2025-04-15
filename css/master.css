@@ -1,12 +1,13 @@
 /* Set root font */
 :root {
-  font-family: "Walter Turncoat", cursive; /* Use Walter Turncoat font for the root element */
+  font-family: "Montserrat", sans-serif; /* Use Walter Turncoat font for the root element */
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 /* Apply styles to headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Reddit Mono', monospace; /* Use Reddit Mono font for headings */
-  font-weight: 900; /* Bold font weight for headings */
+  font-family: "Walter Turncoat", cursive; /* Use Walter Turncoat font for the root element */
+  font-weight: 500; /* Bold font weight for headings */
 }
