@@ -38,7 +38,9 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-tsblue: #004A5E;
-  --bs-tsbluehover: #008db3;  
+  --bs-tsbluehover: #008db3;
+  --bs-slsilver: #8A8D8F;
+  --bs-slsilverhover c0c0c0;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
