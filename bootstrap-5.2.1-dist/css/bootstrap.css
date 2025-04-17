@@ -8360,6 +8360,10 @@ background: #008db3;
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-tsblue-rgb), var(--bs-bg-opacity)) !important;
 }
+.bg-sl {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-slsilver-rgb), var(--bs-bg-opacity)) !important;
+}
 
 .bg-black {
   --bs-bg-opacity: 1;
