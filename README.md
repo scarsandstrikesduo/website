@@ -1,2 +1,2 @@
 # website
-Silver Linings Duo website
+Scars & Strikes Duo website
