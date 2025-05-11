@@ -6853,7 +6853,7 @@ background: #DCE3EA;
 
 .text-bg-ts {
   color: #fff !important;
-  background-color: RGBA(88, 134, 154, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(55, 104, 120, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -6913,7 +6913,7 @@ background: #DCE3EA;
 }
 
 .link-ts {
-  color: #58869a !important;
+  color: #a9cad6 !important;
 }
 .link-ts:hover, .link-ts:focus {
   color: #fff !important;
