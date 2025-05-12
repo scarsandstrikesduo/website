@@ -158,19 +158,35 @@
       filter: FlipH;
       -ms-filter: "FlipH";
       }
+    .logo-img {
+      height: 1em;        /* Match text height */
+      width: auto;
+      vertical-align: middle;
+      }
+    @media (max-width: 576px) {
+      .display-1 {
+        font-size: 2.5rem; /* Reduce heading size on small screens */
+        }
+      }
   </style>
 </head>
 
 <body class="text-bg-ts">
-  <div class="row w=75 mx-auto">
-    <div class="col-lg-2">
-      <img class="img-fluid img-flip-hor" src="https://scarsandstrikesduo.github.io/website/img/Scars%20and%20Strikes%20Logo%20Icon%20Only.png" alt="Logo" />
-    </div>
-    <div class="col-lg my-auto">
-      <div class="text-center display-1 mt-4 splash-regular">Scars & Strikes Duo</div>
-    </div>
-    <div class="col-lg-2">
-      <img class="img-fluid" src="https://scarsandstrikesduo.github.io/website/img/Scars%20and%20Strikes%20Logo%20Icon%20Only.png" alt="Logo" />
+  <div class="row justify-content-center">
+    <div class="col text-center">
+      <div class="display-1 splash-regular d-flex justify-content-center align-items-center flex-wrap gap-4 mt-4">
+        <img
+          class="logo-img img-flip-hor"
+          src="https://scarsandstrikesduo.github.io/website/img/Scars%20and%20Strikes%20Logo%20Icon%20Only.png"
+          alt="Logo left"
+        />
+        <span>Scars &amp; Strikes Duo</span>
+        <img
+          class="logo-img"
+          src="https://scarsandstrikesduo.github.io/website/img/Scars%20and%20Strikes%20Logo%20Icon%20Only.png"
+          alt="Logo right"
+        />
+      </div>
     </div>
   </div>
   <ul class="nav nav-pills text-bg-ts p-3 border-0 border border-bottom border-white mx-auto d-flex justify-content-around w-75">
